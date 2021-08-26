@@ -73,6 +73,6 @@ def createTagList():
     return taglist
 
 def addBookTags():
-    booktags = lt.newList(datastructure='SINGLE_LINKED',
+    bts = lt.newList(datastructure='SINGLE_LINKED',
     filename=booktagsfile)
-    return booktags    pass
+    return bts
